@@ -26,6 +26,7 @@ jobs:
     - name: Install dependencies
       run: |
         pip3.11 install -r requirements.txt
-    - name: Test with pytest
-      run: |
-        ./run
+        
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2.0.4

@@ -5,12 +5,14 @@ __pycache__/
 *.pem
 *.conf
 *.key
+README.md
 config.json
 test/static
 flask_session/
 app/static/config
 app/static/custom_config
 app/static/bangs
+
 
 # pip stuff
 /build/

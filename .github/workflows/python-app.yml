@@ -29,4 +29,5 @@ jobs:
         
     - name: Deploy to GitHub Pages
       id: deployment
+      run: ./run
       uses: actions/deploy-pages@v2.0.4
